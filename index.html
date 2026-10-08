@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">Nova</div>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main class="profile-card">
+        <section class="hero">
+          <div class="profile-copy">
+            <p class="eyebrow">Product Designer • Frontend Developer</p>
+            <h1>Hi, I’m Ava Thompson</h1>
+            <p class="summary">
+              I build clean, human-centered digital experiences that turn ideas into products people love to use.
+            </p>
+            <div class="actions">
+              <a class="primary" href="#contact">Hire Me</a>
+              <a class="secondary" href="#projects">View Work</a>
+            </div>
+            <ul class="meta-list">
+              <li><span>Location</span><strong>Seattle, WA</strong></li>
+              <li><span>Experience</span><strong>8+ years</strong></li>
+              <li><span>Email</span><strong>ava@nova.studio</strong></li>
+            </ul>
+          </div>
+
+          <div class="avatar-panel">
+            <div class="avatar-wrap">
+              <div class="avatar">AT</div>
+            </div>
+            <div class="badge-card">
+              <span class="badge-label">Available for work</span>
+              <strong>Open to freelance & full-time</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="info-grid" id="about">
+          <article class="panel">
+            <p class="panel-label">About</p>
+            <h2>Designing thoughtful experiences.</h2>
+            <p>
+              I help startups and growing teams craft products with strong visual systems, intuitive flows,
+              and polished frontend implementation.
+            </p>
+          </article>
+
+          <article class="panel stats-panel" id="skills">
+            <p class="panel-label">Core Skills</p>
+            <div class="chip-list">
+              <span>UI/UX</span>
+              <span>Figma</span>
+              <span>React</span>
+              <span>CSS</span>
+              <span>Design Systems</span>
+              <span>Prototyping</span>
+            </div>
+          </article>
+        </section>
+
+        <section class="projects" id="projects">
+          <div class="section-heading">
+            <p class="panel-label">Featured Work</p>
+            <h2>Selected projects</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-topline">
+                <span>Fintech</span>
+                <span>2024</span>
+              </div>
+              <h3>Northstar Wallet</h3>
+              <p>Redesigned onboarding and dashboard experience for a mobile budgeting product.</p>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span>SaaS</span>
+                <span>2023</span>
+              </div>
+              <h3>FlowPilot</h3>
+              <p>Built a scalable design system and analytics-focused UI for B2B workflow software.</p>
+            </article>
+
+            <article class="project-card">
+              <div class="project-topline">
+                <span>Health</span>
+                <span>2022</span>
+              </div>
+              <h3>Synergy Care</h3>
+              <p>Created a patient-first platform for care coordination with clearer communication flows.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer" id="contact">
+        <p>Let’s build something meaningful.</p>
+        <div class="socials">
+          <a href="https://dribbble.com" target="_blank" rel="noreferrer">Dribbble</a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:ava@nova.studio">Email</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
